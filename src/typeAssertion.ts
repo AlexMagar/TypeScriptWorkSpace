@@ -24,7 +24,7 @@ let myVal: string = addOrConcat(2,2,'concat') as string
 (10 as unknown) as string
 
 //DOM
-const img = document.querySelector('img')!q
+const img = document.querySelector('img')!
 const myImg = document.getElementById('#img')! as HTMLImageElement
 
-img.src
+img.src 
