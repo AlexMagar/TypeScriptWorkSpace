@@ -1,3 +1,5 @@
+// import { student } from "./IndexSignatureKeyAssertion.ts";
+
 let myName: string = 'Dave'
 let meaningOfLife: number;
 let isLoading: boolean;
@@ -119,3 +121,5 @@ const addAll = (a:number, b: number, c?:number):number =>{
 const total = (...nums: number[]):number =>{
     return nums.reduce((prev, curr) => prev + curr)
 }
+
+// console.log("This is from the Index Signature: ",student.name)
